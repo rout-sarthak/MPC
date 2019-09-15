@@ -1,5 +1,7 @@
 CarND-Controls-MPC
+
 Vehicle Model
+
 The model I used in this MPC project is a kinematic bicycle model which neglects the complex interactions between the tires and road. 
 The equations of the model are shown below:
 x[t] = x[t-1] + v[t-1] * cos(psi[t-1]) * dt
